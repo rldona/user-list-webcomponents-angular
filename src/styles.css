@@ -1,0 +1,19 @@
+html,
+body {
+  margin-top: 10px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px 'Arial';
+  line-height: 1.4em;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px 0 40px;
+}
