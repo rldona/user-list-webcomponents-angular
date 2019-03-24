@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import './webcomponents/user-list/user-list';
 import './webcomponents/user-detail/user-detail';
@@ -7,12 +7,8 @@ import './webcomponents/user-detail/user-detail';
   selector: 'app-root',
   templateUrl: './app.component.html'
 })
-export class AppComponent implements OnInit {
-  constructor() {
-    console.log('AppComponent constructor');
-  }
+export class AppComponent {
+  title: String = 'User list made with native Web Components and Angular';
 
-  ngOnInit(): void {
-    console.log('AppComponent init');
-  }
+  constructor() {}
 }
